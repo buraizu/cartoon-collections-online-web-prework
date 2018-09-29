@@ -21,8 +21,7 @@ def find_the_cheese(array)
   array.each do |element|
     if element.include?("cheddar" || "gouda" || "camembert") == true
       return element
-    
+      end
     end
-  end
   return nil
 end
